@@ -12,8 +12,8 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "ng-darui": [
-        "dist/ng-darui"
+      "ng-darui/*": [
+        "projects/ng-darui/*"
       ]
     },
     "declaration": false,

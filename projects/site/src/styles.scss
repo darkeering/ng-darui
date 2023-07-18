@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+@import "@docgeni/template/styles/index.scss";
+@import "./style-sheet.css";
+@import "./style.css";
+
+.dg-example-viewer .dg-example-viewer-header {
+  background: var(--dar-base-bg);
+  color: var(--dar-text);
+  border-bottom: 1px solid var(--dar-dividing-line);
+}
+
+.dg-layout .dg-sidebar {
+  border-right: 1px solid var(--dar-dividing-line);
+}
+
+.dg-menu .menu-item .item-content {
+  color: var(--dar-text);
+}
+.dg-menu .menu-group .group-header .group-title {
+  color: var(--dar-text);
+}
+
+.dg-source-code {
+  background-color: var(--dar-global-bg);
+}
+
+.dg-doc-content table:not(.dg-example-viewer table) th {
+  background-color: var(--dar-base-bg);
+}
+
+.dg-example-viewer .dg-example-viewer-wrapper {
+  border: 1px solid var(--dar-dividing-line);
+}
+
+.dg-theme-default .dg-navbar {
+  background-color: var(--dar-base-bg);
+}
+
+.dg-example-viewer .dg-example-viewer-actions {
+  border-top: 1px dashed var(--dar-dividing-line);
+}
+.dg-example-viewer .dg-example-viewer-sources {
+  border-top: 1px solid var(--dar-dividing-line);
+}
+.dg-tab-links {
+  border-bottom: 1px solid var(--dar-dividing-line);
+}
+
+.dg-theme-default .dg-navbar .navbar-brand .title {
+  color: var(--dar-text);
+}
+
+.dg-theme-default .dg-navbar .nav a {
+  color: var(--dar-text);
+  
+}
+
+.dg-tab-links .dg-tab-link {
+  
+  color: var(--dar-text);
+}
+
+.dg-doc-content h1:not(.dg-example-viewer h1) {
+  color: var(--dar-text);
+
+}
+
+.dg-doc-content table:not(.dg-example-viewer table) th, .dg-doc-content table:not(.dg-example-viewer table) td {
+  border: 1px solid var(--dar-dividing-line)
+}
+
+.dg-toc .dg-link {
+  
+}
+
+.dg-toc .dg-link::before {
+  border-left: 2px solid#eee;
+}

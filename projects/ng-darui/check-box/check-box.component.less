@@ -1,0 +1,46 @@
+.darui-checkbox {
+  .darui-checkbox-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    height: 16px;
+    cursor: pointer;
+    color: var(--dar-text);
+
+    input {
+      width: 0;
+      height: 0;
+    }
+
+    .darui-checkbox-material {
+      font-size: 16px;
+      border: 1px solid var(--dar-form-control-line);
+      border-radius: 4px;
+      box-sizing: content-box;
+      margin-right: 6px;
+      background-color: var(--dar-base-bg);
+      color: #fff;
+      background: linear-gradient(#5e7ce0, #5e7ce0) no-repeat center/0%;
+      background-size: 0% 0%;
+      transition: all 0.2s cubic-bezier(.5, .05, .5, .95);
+      i {
+        font-size: 16px;
+        opacity: 0;
+        transition: all 0.2s cubic-bezier(.5, .05, .5, .95);
+      }
+    }
+  }
+
+  &.checked {
+    .darui-checkbox-label {
+      .darui-checkbox-material {
+        background-size: 100% 100%;
+        i {
+          opacity: 1;
+        }
+      }
+    }
+
+  }
+}
