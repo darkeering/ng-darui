@@ -2,21 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SearchComponent } from './search.component';
 import { IconsModule } from '../icons';
-import { TextInputModule } from 'ng-darui/text-input';
-
-
+import { TextInputModule } from '../text-input';
 
 @NgModule({
-  declarations: [
-    SearchComponent
-  ],
-  imports: [
-    CommonModule,
-    IconsModule,
-    TextInputModule
-  ],
-  exports: [
-    SearchComponent
-  ]
+  declarations: [SearchComponent],
+  imports: [CommonModule, IconsModule, TextInputModule],
+  exports: [SearchComponent],
 })
-export class SearchModule { }
+export class SearchModule {}

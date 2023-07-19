@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { TooltipModule } from 'ng-darui/tooltip/tooltip.module';
+import { TooltipModule } from 'ng-darui/tooltip';
 
 @Component({
   selector: 'dar-tooltip-basic-example',

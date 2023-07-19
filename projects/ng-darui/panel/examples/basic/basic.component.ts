@@ -1,7 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { PanelModule } from 'ng-darui/panel/panel.module';
-import { ButtonModule, FullScreenModule } from 'ng-darui/public-api';
+import { PanelModule } from 'ng-darui/panel';
 
 @Component({
   selector: 'dar-panel-basic-example',

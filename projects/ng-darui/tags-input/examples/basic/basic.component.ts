@@ -1,7 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { TagsInputModule } from 'ng-darui/tags-input/tags-input.module';
-import { TagsModule } from 'ng-darui/tags/tags.module';
+import { TagsInputModule } from 'ng-darui/tags-input';
 
 @Component({
   selector: 'dar-tags-input-basic-example',

@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { DropdownModule } from 'ng-darui/dropdown/dropdown.module';
+import { DropdownModule } from 'ng-darui/dropdown';
 
 @Component({
   selector: 'dar-drop-down-basic-example',

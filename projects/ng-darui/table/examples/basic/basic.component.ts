@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, ViewChild } from '@angular/core';
 import { ButtonModule } from 'ng-darui/button';
-import { TableModule } from 'ng-darui/table/table.module';
+import { TableModule } from 'ng-darui/table';
 
 @Component({
   selector: 'dar-table-basic-example',

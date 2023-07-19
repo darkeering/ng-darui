@@ -5,17 +5,17 @@ import { Directive, EventEmitter, HostListener, Output } from '@angular/core';
 })
 export class HoverIndexDirective {
 
-  @Output() zHoverIndex = new EventEmitter()
+  @Output() darHoverIndex = new EventEmitter()
 
   constructor(
 
   ) { }
 
   @HostListener('mouseenter') onMouseEnter() {
-    this.zHoverIndex.emit(true)
+    this.darHoverIndex.emit(true)
   }
   @HostListener('mouseleave') onMouseLeave() {
-    this.zHoverIndex.emit(false)
+    this.darHoverIndex.emit(false)
   }
 
 }

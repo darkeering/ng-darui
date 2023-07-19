@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { TagsModule } from 'ng-darui/tags/tags.module';
+import { TagsModule } from 'ng-darui/tags';
 
 @Component({
   selector: 'dar-tags-basic-example',
