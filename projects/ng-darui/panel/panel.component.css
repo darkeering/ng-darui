@@ -1,0 +1,35 @@
+:host ::ng-deep .header-container {
+  background-color: var(--dar-primary-bg);
+  padding: 12px 20px;
+  color: var(--dar-text);
+  cursor: pointer;
+}
+:host ::ng-deep .header-container .darui-panel-header {
+  display: flex;
+  align-items: center;
+}
+:host ::ng-deep .header-container .darui-panel-header .darui-panel-icon {
+  font-size: 16px;
+  margin-right: 8px;
+  transition: all 0.25s ease-in-out;
+}
+:host ::ng-deep .header-container .darui-panel-header .darui-panel-icon.open {
+  transform: rotate(180deg);
+}
+:host ::ng-deep .body-contsiner {
+  background-color: var(--dar-primary-bg);
+  display: flex;
+  line-height: 1.5;
+}
+:host ::ng-deep .body-contsiner::before {
+  content: "";
+  width: 30px;
+  display: block;
+}
+:host ::ng-deep .body-contsiner .body-inner {
+  background-color: var(--dar-base-bg);
+  padding: 20px;
+  flex: 1;
+  border-left: 2px solid var(--dar-primary);
+  color: var(--dar-text);
+}

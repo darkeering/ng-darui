@@ -1,0 +1,24 @@
+.dar-tag-container {
+  border: 1px solid #0b81f6;
+  border-radius: 4px;
+  padding: 2px 4px 2px 8px;
+  color: #0b81f6;
+  position: relative;
+  display: flex;
+  margin-right: 4px;
+  background-color: var(--dar-base-bg);
+}
+.dar-tag-container .dar-tag-inner {
+  display: flex;
+}
+.dar-tag-container .dar-tag-inner .dar-tag-name {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.dar-tag-container .dar-tag-inner .dar-tag-close-icon {
+  color: #0b81f6;
+  font-size: 12px;
+  align-self: center;
+  justify-self: flex-end;
+  cursor: pointer;
+}

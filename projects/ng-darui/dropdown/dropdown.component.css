@@ -3,7 +3,7 @@
   border: 1px solid var(--dar-form-control-line);
   border-radius: 4px;
   display: flex;
-  cursor: default;
+  cursor: pointer;
   align-items: center;
   color: var(--dar-text);
   background-color: var(--dar-base-bg);

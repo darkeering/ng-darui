@@ -1,0 +1,16 @@
+<div class="search">
+  <input
+    #search
+    [autofocus]="autofocus"
+    (change)="inputChange(search.value)"
+    (keyup)="inputChange(search.value)"
+    darTextInput
+    type="search"
+    name="search"
+    id="search"
+    placeholder="Please Enter"
+  />
+  <!-- <i *ngIf="searchText !== ''" class="icon icon-error-o" (click)="cancle()"></i> -->
+  <i darCloseCircleFilled class="darui-cancle-icon" *ngIf="searchText !== ''" (click)="cancle()"></i>
+  <i darSearchOutlined class="darui-search-icon"></i>
+</div>

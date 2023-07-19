@@ -16,10 +16,10 @@
   transition: background-color 0.3s;
 }
 .primary:hover {
-  background-color: var(--dar-primary-5);
+  background-color: var(--dar-primary-hover);
 }
 .primary:active {
-  background-color: var(--dar-primary-7);
+  background-color: var(--dar-primary-active);
 }
 .primary:disabled {
   border: 1px solid var(--dar-disabled-border);

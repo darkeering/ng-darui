@@ -1,0 +1,14 @@
+<div>
+  <div class="header-container" (click)="toggle()">
+    <div class="darui-panel-header">
+      <!-- <em class="icon icon-select-arrow" [ngClass]="{'open': open}" ></em> -->
+      <i darUpOutlined class="darui-panel-icon" [ngClass]="{ open: open }"></i>
+      <ng-content select="dar-panel-header"></ng-content>
+    </div>
+  </div>
+  <div class="body-contsiner" [@toggle]="open ? 'show' : 'hidden'">
+    <div class="body-inner">
+      <ng-content select="dar-panel-body"></ng-content>
+    </div>
+  </div>
+</div>

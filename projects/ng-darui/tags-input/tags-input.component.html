@@ -1,0 +1,25 @@
+<div class="dar-tags-input-container">
+  <div class="dar-tags-input-menu">
+    <ul>
+      <ng-container *ngFor="let selectTag of hasSelectTags ; let index = index">
+        <li>
+          <dar-tag [tag]="selectTag" (deleteTag)="deleteItem(index)"></dar-tag>
+        </li>
+      </ng-container>
+    </ul>
+  </div>
+  <div #tagsInput class="dar-tags-input-add">
+    <input
+      darTextInput
+      type="text"
+      placeholder="Add a tag"
+      (keyup.enter)="addTag($event)"
+      [(ngModel)]="inputCode"
+      darAutoComplete
+      [source]="source"
+      [origin]="tagsInputEl"
+      [needSetProperty]="false"
+      (selectValue)="selectValue($event)"
+    />
+  </div>
+</div>

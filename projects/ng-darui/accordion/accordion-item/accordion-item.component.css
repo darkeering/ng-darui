@@ -9,6 +9,7 @@
   background-color: var(--dar-list-item-hover-bg);
 }
 .accordion-item.active {
-  color: var(--dar-list-item-active-text);
+  color: var(--dar-brand-active);
   background-color: var(--dar-list-item-active-bg);
+  font-weight: 700;
 }

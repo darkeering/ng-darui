@@ -1,0 +1,5 @@
+<div class="dar-tags-container">
+  <ng-container *ngFor="let tag of tags;let index = index">
+    <dar-tag [tag]="tag" (deleteTag)="deleteItem(index)"></dar-tag>
+  </ng-container>
+</div>

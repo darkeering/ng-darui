@@ -1,0 +1,32 @@
+.search {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.search input {
+  padding: 4px 24px 4px 8px;
+}
+.search input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+.search .darui-search-icon {
+  position: absolute;
+  display: inline-flex;
+  cursor: pointer;
+  color: #a6a9af;
+  font-size: 14px;
+  padding-right: 5px;
+  box-sizing: content-box;
+}
+.search .darui-cancle-icon {
+  position: absolute;
+  display: inline-flex;
+  cursor: pointer;
+  right: 25px;
+  color: #d7d8da;
+  border-right: 1.1px solid;
+  font-size: 14px;
+  padding-right: 7px;
+  box-sizing: content-box;
+}

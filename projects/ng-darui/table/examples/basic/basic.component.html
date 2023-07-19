@@ -1,0 +1,7 @@
+<dar-table [colsConfig]="colsConfig" [data]="data"></dar-table>
+
+<ng-template #action let-rowData>
+  <dar-button>Edit {{rowData.name}}</dar-button>
+  {{ " " }}
+  <dar-button>Delete</dar-button>
+</ng-template>
