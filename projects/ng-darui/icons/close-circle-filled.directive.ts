@@ -24,7 +24,7 @@ import { ApplicationRef, Component, ComponentFactoryResolver, Directive, Element
 export class CloseCircleFilled { }
 
 @Directive({
-  selector: '[zCloseCircleFilled]'
+  selector: '[darCloseCircleFilled]'
 })
 export class CloseCircleFilledDirective {
   constructor(

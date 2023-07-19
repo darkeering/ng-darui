@@ -1,0 +1,23 @@
+.out-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.out-container .in-container {
+  background-color: var(--dar-base-bg);
+  border: 1px solid var(--dar-dividing-line);
+  padding: 10px;
+  margin-left: 10px;
+  color: var(--dar-text);
+}
+.out-container .in-container ul {
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+}
+.out-container .in-container ul li {
+  margin-top: 10px;
+  background-color: var(--dar-primary);
+  padding: 10px;
+  color: var(--dar-light-text);
+}

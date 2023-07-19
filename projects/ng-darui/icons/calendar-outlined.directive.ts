@@ -23,7 +23,7 @@ import { Component, Directive, ElementRef, Renderer2, ViewContainerRef, Componen
 export class CalendarOutlined { }
 
 @Directive({
-  selector: '[zCalendarOutlined]'
+  selector: '[darCalendarOutlined]'
 })
 export class CalendarOutlinedDirective {
   constructor(

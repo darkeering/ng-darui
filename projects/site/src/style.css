@@ -21,7 +21,7 @@ html {
 ul {
   list-style: none;
 }
-z-button {
+dar-button {
   display: inline-block;
 }
 .tooltip-border-red {
@@ -94,7 +94,7 @@ z-button {
 .full:fullscreen {
   background-color: var(--dar-global-bg);
 }
-.z-text-input {
+.dar-text-input {
   border-radius: 4px;
   padding: 4px 8px;
   height: 32px;
@@ -105,10 +105,10 @@ z-button {
   color: var(--dar-text);
   background-color: var(--dar-base-bg);
 }
-.z-text-input:hover {
+.dar-text-input:hover {
   border-color: var(--dar-form-control-line-hover);
 }
-.z-text-input:focus {
+.dar-text-input:focus {
   border-color: var(--dar-form-control-line-active);
 }
 ::-webkit-scrollbar {

@@ -24,7 +24,7 @@ import { ApplicationRef, Component, ComponentFactoryResolver, Directive, Element
 export class CloseOutlined { }
 
 @Directive({
-  selector: '[zCloseOutlined]'
+  selector: '[darCloseOutlined]'
 })
 export class CloseOutlinedDirective {
   constructor(

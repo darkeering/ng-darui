@@ -24,7 +24,7 @@ import { ApplicationRef, Component, ComponentFactoryResolver, Directive, Element
 export class RightOutlined { }
 
 @Directive({
-  selector: '[zRightOutlined]'
+  selector: '[darRightOutlined]'
 })
 export class RightOutlinedDirective {
   constructor(

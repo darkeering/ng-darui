@@ -76,3 +76,9 @@
 .dg-toc .dg-link::before {
   border-left: 2px solid#eee;
 }
+
+.dg-search-container .search {
+  border: 1px solid var(--dar-form-control-line);
+  color: var(--dar-text);
+  background-color: var(--dar-base-bg);
+}

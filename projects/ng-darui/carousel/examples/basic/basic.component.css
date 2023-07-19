@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+dar-carousel-item {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  line-height: 200px;
+  color: var(--dar-text);
+  background-color: #364d79;
+}

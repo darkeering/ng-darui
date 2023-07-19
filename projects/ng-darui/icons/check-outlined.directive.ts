@@ -24,7 +24,7 @@ import { ApplicationRef, Component, ComponentFactoryResolver, Directive, Element
 export class CheckOutlined { }
 
 @Directive({
-  selector: '[zCheckOutlined]'
+  selector: '[darCheckOutlined]'
 })
 export class CheckOutlinedDirective {
   constructor(

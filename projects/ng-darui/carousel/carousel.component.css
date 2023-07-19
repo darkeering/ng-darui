@@ -1,0 +1,77 @@
+.out-container {
+  position: relative;
+}
+.out-container .dar-carousel-quick {
+  position: absolute;
+  color: var(--dar-text);
+  background-color: transparent;
+  transition: all 0.25s ease-in-out;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+.out-container .dar-carousel-pre:hover .dar-carousel-pre-icon {
+  transform: scale(2);
+}
+.out-container .dar-carousel-pre-icon {
+  transition: all 0.25s ease-in-out;
+  position: absolute;
+  left: 20px;
+  transform: scale(0);
+}
+.out-container .dar-carousel-next {
+  right: 0;
+}
+.out-container .dar-carousel-next:hover .dar-carousel-next-icon {
+  transform: scale(2);
+}
+.out-container .dar-carousel-next-icon {
+  transition: all 0.25s ease-in-out;
+  position: absolute;
+  right: 20px;
+  transform: scale(0);
+}
+.out-container .dar-carousel-container {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+.out-container .dar-carousel-container .dar-carousel-wrapper {
+  display: flex;
+  position: relative;
+}
+.out-container .dar-carousel-container .dar-carousel-wrapper ::ng-deep .dar-carousel-item {
+  flex: 1;
+}
+.out-container .dots-wrapper {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.out-container .dar-carousel-dot {
+  width: 16px;
+  height: 3px;
+  border-radius: 100px;
+  background-color: var(--dar-text);
+  transition: all 0.3s ease-in-out;
+  opacity: 0.5;
+  cursor: pointer;
+  margin: 4px;
+  position: relative;
+}
+.out-container .dar-carousel-dot::after {
+  content: ' ';
+  position: absolute;
+  inset: -4px;
+}
+.out-container .dar-carousel-dot:hover {
+  opacity: 1;
+}
+.out-container .dar-carousel-dot.dar-carousel-dot-active {
+  opacity: 1;
+  width: 24px;
+}

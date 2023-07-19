@@ -24,7 +24,7 @@ import { ApplicationRef, Component, ComponentFactoryResolver, Directive, Element
 export class UpOutlined { }
 
 @Directive({
-  selector: '[zUpOutlined]'
+  selector: '[darUpOutlined]'
 })
 export class UpOutlinedDirective {
   constructor(

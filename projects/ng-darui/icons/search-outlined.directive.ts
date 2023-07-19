@@ -24,7 +24,7 @@ import { ApplicationRef, Component, ComponentFactoryResolver, Directive, Element
 export class SearchOutlined { }
 
 @Directive({
-  selector: '[zSearchOutlined]'
+  selector: '[darSearchOutlined]'
 })
 export class SearchOutlinedDirective {
   constructor(
